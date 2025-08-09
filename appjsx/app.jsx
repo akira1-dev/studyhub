@@ -2,8 +2,8 @@ function App() {
     function non() {
         alert("None");
     }
-    function OralCom() { window.location.href = "../pageshtml/oralCom.html" }
-    function EmpTech() { window.location.href = "../pageshtml/empTech.html" }
+    function OralCom() { window.location.href = "../pageshtml/oralcom.htm" }
+    function EmpTech() { window.location.href = "../pageshtml/empttech.htm" }
     return (
 <div>
     <header>
