@@ -5,14 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>StudyHub || Akira</title>
-    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-<div id="root"></div>
-<script type="text/babel" src="appjsx/app.js"></script>
+<div>
+    <header>
+        <h2><i class="fas fa-book"></i> StudyHub</h2>
+    </header>
+    <div class="intro">
+        <h1>My StudyHub</h1>
+    </div>
+    <br>
+    <div class="main-study-area">
+        <div class="main-study-body">
+            <h2>Learning Material</h2>
+            <div class="study-btn-area">
+                <button class="studyBTN" onclick="OralCom()">Oral Communication</button>
+                <button class="studyBTN" onclick="EmpTech()">Empowerment Technologies</button>
+                <button class="studyBTN" onclick="non()">General Mathematics</button>
+                <button class="studyBTN" onclick="non()">Fundamentals of Computer</button>
+                <button class="studyBTN" onclick="non()">Personal Development</button>
+                <button class="studyBTN" onclick="non()">Komunikasyon sa Filipino</button>
+                <button class="studyBTN" onclick="non()">Design Program Logic</button>
+                <button class="studyBTN" onclick="non()">HOPE#1</button>
+                <button class="studyBTN" onclick="non()">Earth & Social Science</button>
+            </div>
+            <h2>Programming RoadMap</h2>
+            <div class="study-btn-area">
+                <button class="studyBTN" onclick="non()">Python</button>
+                <button class="studyBTN" onclick="non()">JavaScript</button>
+                <button class="studyBTN" onclick="non()">C++</button>
+                <button class="studyBTN" onclick="non()">Java</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <small>&copy; StudyHub || Developed by: Akira (Owner) & Adrian (Frameworks)</small>
+    </footer>
+</div>
+<script src="appjs/app.js"></script>
 </body>
 </html>
