@@ -3,7 +3,7 @@ function App() {
         alert("None");
     }
     function OralCom() { window.location.href = "../pageshtml/oralcom.htm" }
-    function EmpTech() { window.location.href = "../pageshtml/empttech.htm" }
+    function EmpTech() { window.location.href = "../pageshtml/emptech.htm" }
     return (
 <div>
     <header>
