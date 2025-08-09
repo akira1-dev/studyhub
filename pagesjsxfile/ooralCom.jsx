@@ -11,7 +11,7 @@ function App() {
         <h2>Oral Communication</h2>
     </div>
     <div className="main-lessons-area">
-<div class="topiclesson-body">
+<div className="topiclesson-body">
   <h2>📘 ORAL COMMUNICATION – Q2 LESSON 1/???</h2>
   <h3>📍 Title: Informative and Persuasive Speeches</h3>
 
@@ -40,7 +40,7 @@ function App() {
   </ul>
 
   <h4>📌 D. Differences</h4>
-  <table border="1" cellpadding="5" cellspacing="0">
+  <table border="1">
     <thead>
       <tr>
         <th>Informative Speech</th>
@@ -67,7 +67,7 @@ function App() {
     </tbody>
   </table>
 </div>
-<div class="topiclesson-body">
+<div className="topiclesson-body">
   <h2>📘 ORAL COMMUNICATION – Q2 LESSON 2/???</h2>
   <h3>📍 Title: The Art of Public Speaking</h3>
 
@@ -102,7 +102,7 @@ function App() {
     <li>Start with a strong opening to gain confidence.</li>
   </ul>
 </div>
-<div class="topiclesson-body">
+<div className="topiclesson-body">
   <h2>📘 ORAL COMMUNICATION – Q2 LESSON 3/???</h2>
   <h3>📍 Title: Types of Speeches</h3>
 
@@ -148,7 +148,7 @@ function App() {
     <li>Balances structure and natural delivery.</li>
   </ul>
 </div>
-<div class="topiclesson-body">
+<div className="topiclesson-body">
   <h2>📘 ORAL COMMUNICATION – Q2 LESSON 4/???</h2>
   <h3>📍 Title: Speech Preparation and Organization</h3>
 
@@ -182,7 +182,7 @@ function App() {
     <li>Support points with examples, facts, or anecdotes.</li>
   </ul>
 </div>
-<div class="topiclesson-body">
+<div className="topiclesson-body">
   <h2>📘 ORAL COMMUNICATION – Q2 LESSON 5/???</h2>
   <h3>📍 Title: Speech Delivery Techniques</h3>
 
@@ -218,7 +218,7 @@ function App() {
     <li>Manage nervousness through breathing exercises.</li>
   </ul>
 </div>
-<div class="topiclesson-body">
+<div className="topiclesson-body">
   <h2>📘 ORAL COMMUNICATION – Q2 LESSON 6/???</h2>
   <h3>📍 Title: Overcoming Communication Barriers</h3>
 
@@ -243,7 +243,7 @@ function App() {
     <li>Ensure proper communication environment.</li>
   </ul>
 </div>
-<div class="topiclesson-body">
+<div className="topiclesson-body">
   <h2>📘 ORAL COMMUNICATION – Q2 LESSON 7/???</h2>
   <h3>📍 Title: Listening and Note-taking Skills</h3>
 
@@ -270,7 +270,7 @@ function App() {
     <li>Review and revise notes soon after listening.</li>
   </ul>
 </div>
-<div class="topiclesson-body">
+<div className="topiclesson-body">
   <h2>📘 ORAL COMMUNICATION – Q2 LESSON 8/???</h2>
   <h3>📍 Title: Nonverbal Communication</h3>
 
@@ -294,7 +294,7 @@ function App() {
     <li>Facilitates better understanding in communication.</li>
   </ul>
 </div>
-<div class="topiclesson-body">
+<div className="topiclesson-body">
   <h2>📘 ORAL COMMUNICATION – Q2 LESSON 9/???</h2>
   <h3>📍 Title: Effective Use of Visual Aids</h3>
 

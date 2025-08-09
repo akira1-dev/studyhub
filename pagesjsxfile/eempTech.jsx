@@ -11,7 +11,7 @@ function App() {
         <h2>Empowerment Technologies</h2> 
     </div>
     <div className="main-lessons-area">
-<div class="topiclesson-body">
+<div className="topiclesson-body">
   <h2>💻 EMPOWERMENT TECHNOLOGIES – Q2 LESSON 1/???</h2>
   <h3>📍 Title: Digital Citizenship and Online Responsibility</h3>
 
@@ -37,7 +37,7 @@ function App() {
     <li>Prevents cybercrimes and misuse of technology.</li>
   </ul>
 </div>
-<div class="topiclesson-body">
+<div className="topiclesson-body">
   <h2>💻 EMPOWERMENT TECHNOLOGIES – Q2 LESSON 2/???</h2>
   <h3>📍 Title: Cybersecurity Basics</h3>
 
@@ -64,7 +64,7 @@ function App() {
     <li>Regularly back up important data.</li>
   </ul>
 </div>
-<div class="topiclesson-body">
+<div className="topiclesson-body">
   <h2>💻 EMPOWERMENT TECHNOLOGIES – Q2 LESSON 3/???</h2>
   <h3>📍 Title: Cloud Computing and Its Applications</h3>
 
@@ -96,7 +96,7 @@ function App() {
     <li>Microsoft Azure (PaaS)</li>
   </ul>
 </div>
-<div class="topiclesson-body">
+<div className="topiclesson-body">
   <h2>💻 EMPOWERMENT TECHNOLOGIES – Q2 LESSON 4/???</h2>
   <h3>📍 Title: Data Privacy and Protection</h3>
 
@@ -128,7 +128,7 @@ function App() {
     <li>Other local and international laws regulating data privacy.</li>
   </ul>
 </div>
-<div class="topiclesson-body">
+<div className="topiclesson-body">
   <h2>💻 EMPOWERMENT TECHNOLOGIES – Q2 LESSON 5/???</h2>
   <h3>📍 Title: Responsible Use of Technology</h3>
 
@@ -154,7 +154,7 @@ function App() {
     <li>Damage to reputation and relationships.</li>
   </ul>
 </div>
-<div class="topiclesson-body">
+<div className="topiclesson-body">
   <h2>💻 EMPOWERMENT TECHNOLOGIES – Q2 LESSON 6/???</h2>
   <h3>📍 Title: Emerging Technologies and Their Impact</h3>
 
@@ -187,7 +187,7 @@ function App() {
     <li>Promoting responsible use and innovation.</li>
   </ul>
 </div>
-<div class="topiclesson-body">
+<div className="topiclesson-body">
   <h2>💻 EMPOWERMENT TECHNOLOGIES – Q2 LESSON 7/???</h2>
   <h3>📍 Title: Social Media and Digital Communication</h3>
 
@@ -220,7 +220,7 @@ function App() {
     <li>Balance online and offline activities.</li>
   </ul>
 </div>
-<div class="topiclesson-body">
+<div className="topiclesson-body">
   <h2>💻 EMPOWERMENT TECHNOLOGIES – Q2 LESSON 8/???</h2>
   <h3>📍 Title: Online Collaboration Tools</h3>
 
@@ -252,7 +252,7 @@ function App() {
     <li>Ensure timely updates and follow-ups.</li>
   </ul>
 </div>
-<div class="topiclesson-body">
+<div className="topiclesson-body">
   <h2>💻 EMPOWERMENT TECHNOLOGIES – Q2 LESSON 9/???</h2>
   <h3>📍 Title: Digital Footprint and Online Reputation</h3>
 
