@@ -1,0 +1,291 @@
+function App() {
+    function mainApp() {
+        window.location.href = "../akira.html";
+    }
+    return (
+<div>
+    <header className="study-header">
+        <h2><button className="fas fa-arrow-left" onClick={mainApp}></button> StudyHub</h2>
+    </header> 
+    <div className = "intro" >
+        <h2>Empowerment Technologies</h2> 
+    </div>
+    <div className="main-lessons-area">
+<div class="topiclesson-body">
+  <h2>💻 EMPOWERMENT TECHNOLOGIES – Q2 LESSON 1/???</h2>
+  <h3>📍 Title: Digital Citizenship and Online Responsibility</h3>
+
+  <h4>📌 A. What is Digital Citizenship?</h4>
+  <ul>
+    <li>The responsible and appropriate use of technology by anyone who uses computers, the Internet, and digital devices.</li>
+    <li>Involves ethical behavior, respect for others, and understanding the impact of one's actions online.</li>
+  </ul>
+
+  <h4>📌 B. Key Aspects of Digital Citizenship</h4>
+  <ul>
+    <li><b>Digital Literacy:</b> Ability to effectively use digital tools and platforms.</li>
+    <li><b>Digital Etiquette:</b> Proper behavior and manners online.</li>
+    <li><b>Digital Rights and Responsibilities:</b> Understanding your rights and duties online.</li>
+    <li><b>Online Safety and Security:</b> Protecting personal information and avoiding cyber threats.</li>
+    <li><b>Cyberbullying Awareness:</b> Recognizing and addressing online harassment.</li>
+  </ul>
+
+  <h4>📌 C. Importance of Being a Responsible Digital Citizen</h4>
+  <ul>
+    <li>Protects your privacy and reputation.</li>
+    <li>Creates a positive online community.</li>
+    <li>Prevents cybercrimes and misuse of technology.</li>
+  </ul>
+</div>
+<div class="topiclesson-body">
+  <h2>💻 EMPOWERMENT TECHNOLOGIES – Q2 LESSON 2/???</h2>
+  <h3>📍 Title: Cybersecurity Basics</h3>
+
+  <h4>📌 A. What is Cybersecurity?</h4>
+  <ul>
+    <li>Protection of internet-connected systems, including hardware, software, and data, from cyberattacks.</li>
+    <li>Ensures confidentiality, integrity, and availability of information.</li>
+  </ul>
+
+  <h4>📌 B. Common Cyber Threats</h4>
+  <ul>
+    <li><b>Malware:</b> Malicious software like viruses, worms, ransomware.</li>
+    <li><b>Phishing:</b> Fraudulent attempts to obtain sensitive information.</li>
+    <li><b>Hacking:</b> Unauthorized access to computer systems.</li>
+    <li><b>Social Engineering:</b> Manipulating people to disclose confidential info.</li>
+  </ul>
+
+  <h4>📌 C. Cybersecurity Measures</h4>
+  <ul>
+    <li>Use strong, unique passwords.</li>
+    <li>Enable two-factor authentication (2FA).</li>
+    <li>Keep software and antivirus updated.</li>
+    <li>Be cautious with emails and links.</li>
+    <li>Regularly back up important data.</li>
+  </ul>
+</div>
+<div class="topiclesson-body">
+  <h2>💻 EMPOWERMENT TECHNOLOGIES – Q2 LESSON 3/???</h2>
+  <h3>📍 Title: Cloud Computing and Its Applications</h3>
+
+  <h4>📌 A. What is Cloud Computing?</h4>
+  <ul>
+    <li>Delivery of computing services—including servers, storage, databases, networking, software—over the internet ("the cloud").</li>
+    <li>Allows users to access data and applications remotely.</li>
+  </ul>
+
+  <h4>📌 B. Types of Cloud Services</h4>
+  <ul>
+    <li><b>Infrastructure as a Service (IaaS):</b> Provides virtualized computing resources over the internet.</li>
+    <li><b>Platform as a Service (PaaS):</b> Offers hardware and software tools over the internet.</li>
+    <li><b>Software as a Service (SaaS):</b> Delivers software applications online.</li>
+  </ul>
+
+  <h4>📌 C. Benefits of Cloud Computing</h4>
+  <ul>
+    <li>Accessibility from anywhere with internet.</li>
+    <li>Cost-effective: reduces the need for physical hardware.</li>
+    <li>Scalability: resources can be adjusted based on demand.</li>
+    <li>Automatic updates and maintenance.</li>
+  </ul>
+
+  <h4>📌 D. Examples of Cloud Services</h4>
+  <ul>
+    <li>Google Drive, Dropbox (SaaS)</li>
+    <li>Amazon Web Services (IaaS)</li>
+    <li>Microsoft Azure (PaaS)</li>
+  </ul>
+</div>
+<div class="topiclesson-body">
+  <h2>💻 EMPOWERMENT TECHNOLOGIES – Q2 LESSON 4/???</h2>
+  <h3>📍 Title: Data Privacy and Protection</h3>
+
+  <h4>📌 A. What is Data Privacy?</h4>
+  <ul>
+    <li>The right of individuals to control how their personal information is collected and used.</li>
+    <li>Ensures personal data is handled securely and responsibly.</li>
+  </ul>
+
+  <h4>📌 B. Common Data Privacy Concerns</h4>
+  <ul>
+    <li>Unauthorized access to personal information.</li>
+    <li>Data breaches and leaks.</li>
+    <li>Use of personal data without consent.</li>
+  </ul>
+
+  <h4>📌 C. Ways to Protect Your Data</h4>
+  <ul>
+    <li>Use strong, unique passwords and change them regularly.</li>
+    <li>Enable privacy settings on social media and apps.</li>
+    <li>Be cautious when sharing personal information online.</li>
+    <li>Use encryption tools and secure networks.</li>
+  </ul>
+
+  <h4>📌 D. Legal Frameworks for Data Protection</h4>
+  <ul>
+    <li>Data Privacy Act of 2012 (Philippines)</li>
+    <li>General Data Protection Regulation (GDPR) – European Union</li>
+    <li>Other local and international laws regulating data privacy.</li>
+  </ul>
+</div>
+<div class="topiclesson-body">
+  <h2>💻 EMPOWERMENT TECHNOLOGIES – Q2 LESSON 5/???</h2>
+  <h3>📍 Title: Responsible Use of Technology</h3>
+
+  <h4>📌 A. What is Responsible Use of Technology?</h4>
+  <ul>
+    <li>Using technology ethically, safely, and legally.</li>
+    <li>Respecting others’ rights and privacy online.</li>
+    <li>Being aware of the impact of one’s digital footprint.</li>
+  </ul>
+
+  <h4>📌 B. Guidelines for Responsible Use</h4>
+  <ul>
+    <li>Avoid plagiarism and respect intellectual property.</li>
+    <li>Protect your passwords and personal information.</li>
+    <li>Do not engage in cyberbullying or harmful online behavior.</li>
+    <li>Use technology to learn, communicate, and create positively.</li>
+  </ul>
+
+  <h4>📌 C. Effects of Irresponsible Use</h4>
+  <ul>
+    <li>Loss of privacy and security risks.</li>
+    <li>Legal consequences and penalties.</li>
+    <li>Damage to reputation and relationships.</li>
+  </ul>
+</div>
+<div class="topiclesson-body">
+  <h2>💻 EMPOWERMENT TECHNOLOGIES – Q2 LESSON 6/???</h2>
+  <h3>📍 Title: Emerging Technologies and Their Impact</h3>
+
+  <h4>📌 A. Definition of Emerging Technologies</h4>
+  <ul>
+    <li>Newly developed or evolving technologies that have the potential to significantly impact society and industries.</li>
+  </ul>
+
+  <h4>📌 B. Examples of Emerging Technologies</h4>
+  <ul>
+    <li>Artificial Intelligence (AI)</li>
+    <li>Internet of Things (IoT)</li>
+    <li>Blockchain Technology</li>
+    <li>Augmented Reality (AR) and Virtual Reality (VR)</li>
+    <li>5G Technology</li>
+  </ul>
+
+  <h4>📌 C. Impact of Emerging Technologies</h4>
+  <ul>
+    <li>Improves efficiency and productivity.</li>
+    <li>Creates new job opportunities and industries.</li>
+    <li>Raises ethical and privacy concerns.</li>
+    <li>Changes how people interact and communicate.</li>
+  </ul>
+
+  <h4>📌 D. Preparing for Technological Changes</h4>
+  <ul>
+    <li>Continuous learning and adaptability.</li>
+    <li>Understanding ethical implications.</li>
+    <li>Promoting responsible use and innovation.</li>
+  </ul>
+</div>
+<div class="topiclesson-body">
+  <h2>💻 EMPOWERMENT TECHNOLOGIES – Q2 LESSON 7/???</h2>
+  <h3>📍 Title: Social Media and Digital Communication</h3>
+
+  <h4>📌 A. Role of Social Media</h4>
+  <ul>
+    <li>Platforms for connecting, sharing, and communicating globally.</li>
+    <li>Used for personal, professional, and educational purposes.</li>
+  </ul>
+
+  <h4>📌 B. Benefits of Social Media</h4>
+  <ul>
+    <li>Facilitates instant communication and collaboration.</li>
+    <li>Helps build communities and networks.</li>
+    <li>Provides access to information and learning resources.</li>
+  </ul>
+
+  <h4>📌 C. Challenges and Risks</h4>
+  <ul>
+    <li>Privacy concerns and data security issues.</li>
+    <li>Cyberbullying and online harassment.</li>
+    <li>Spread of misinformation and fake news.</li>
+    <li>Excessive use affecting mental health.</li>
+  </ul>
+
+  <h4>📌 D. Best Practices for Social Media Use</h4>
+  <ul>
+    <li>Maintain privacy settings and protect personal data.</li>
+    <li>Verify information before sharing.</li>
+    <li>Use social media responsibly and respectfully.</li>
+    <li>Balance online and offline activities.</li>
+  </ul>
+</div>
+<div class="topiclesson-body">
+  <h2>💻 EMPOWERMENT TECHNOLOGIES – Q2 LESSON 8/???</h2>
+  <h3>📍 Title: Online Collaboration Tools</h3>
+
+  <h4>📌 A. What are Online Collaboration Tools?</h4>
+  <p>Software and platforms that allow multiple users to work together remotely in real time or asynchronously.</p>
+
+  <h4>📌 B. Examples of Online Collaboration Tools</h4>
+  <ul>
+    <li>Google Workspace (Docs, Sheets, Slides)</li>
+    <li>Microsoft 365 (Word, Excel, PowerPoint)</li>
+    <li>Slack</li>
+    <li>Trello</li>
+    <li>Zoom</li>
+  </ul>
+
+  <h4>📌 C. Benefits of Online Collaboration Tools</h4>
+  <ul>
+    <li>Facilitates communication and project management.</li>
+    <li>Increases productivity and efficiency.</li>
+    <li>Allows flexible working arrangements.</li>
+    <li>Enables sharing of resources and feedback.</li>
+  </ul>
+
+  <h4>📌 D. Best Practices for Effective Collaboration</h4>
+  <ul>
+    <li>Set clear goals and roles for team members.</li>
+    <li>Use tools consistently and properly.</li>
+    <li>Maintain open and respectful communication.</li>
+    <li>Ensure timely updates and follow-ups.</li>
+  </ul>
+</div>
+<div class="topiclesson-body">
+  <h2>💻 EMPOWERMENT TECHNOLOGIES – Q2 LESSON 9/???</h2>
+  <h3>📍 Title: Digital Footprint and Online Reputation</h3>
+
+  <h4>📌 A. What is a Digital Footprint?</h4>
+  <ul>
+    <li>The trail of data you leave behind when you use the internet.</li>
+    <li>Includes social media posts, websites visited, and online interactions.</li>
+  </ul>
+
+  <h4>📌 B. Types of Digital Footprints</h4>
+  <ul>
+    <li><b>Active Digital Footprint:</b> Information you intentionally share online.</li>
+    <li><b>Passive Digital Footprint:</b> Data collected without your direct input.</li>
+  </ul>
+
+  <h4>📌 C. Importance of Managing Your Online Reputation</h4>
+  <ul>
+    <li>Affects personal and professional opportunities.</li>
+    <li>Can influence how others perceive you.</li>
+    <li>Helps prevent identity theft and cyberbullying.</li>
+  </ul>
+
+  <h4>📌 D. Tips for Maintaining a Positive Online Reputation</h4>
+  <ul>
+    <li>Think before posting or sharing content.</li>
+    <li>Regularly review privacy settings on social media.</li>
+    <li>Be mindful of the information you share publicly.</li>
+    <li>Engage positively and respectfully online.</li>
+  </ul>
+</div>
+    </div>
+</div>
+    );
+}
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
