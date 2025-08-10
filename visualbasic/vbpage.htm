@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>StudyHub || Akira - VisualBasic</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        button {
+            background: none;
+            border: none;
+            text-align: left;
+            font-size: 25px;
+            cursor: pointer;
+        }
+    </style>
+    <link rel="stylesheet" href="../styles/vb.css">
+</head>
+<body>
+<div>
+    <header class="study-header">
+        <h2><button class="fas fa-arrow-left" onclick="back()"></button> Visual Basic.NET</h2>
+    </header>
+    
+    <div class="main-vb-area">
+<div class="main-vb-body">
+    <h2>1. Introduction to VB.NET &amp; Hello World</h2>
+    <p>
+        Visual Basic .NET (VB.NET) is an object-oriented programming language developed by Microsoft.
+        It allows you to create Windows applications, web services, and console programs.
+        Below is a simple example that prints a message to the console.
+    </p>
+    
+    <pre class="code">
+<i>Editor:</i>
+<span>Imports</span> System
+
+<span>Module</span> Program
+    <span>Sub</span> Main()
+        Console.<span>WriteLine</span>(<span>"Hello, World!"</span>)
+    <span>End Sub</span>
+<span>End Module</span>
+    </pre>
+    
+    <pre class="code">
+<i>Output:</i>
+Hello, World!
+    </pre>
+    
+    <h3>Syntax Breakdown</h3>
+    <ul>
+        <li><b>Imports</b> – Includes a namespace or library.</li>
+        <li><b>System</b> – A built-in .NET namespace containing basic classes like <code>Console</code>.</li>
+        <li><b>Module</b> – Defines a container for code.</li>
+        <li><b>Sub</b> – Declares a subroutine.</li>
+        <li><b>Main()</b> – Entry point of the program.</li>
+        <li><b>Console.WriteLine()</b> – Outputs text to the console.</li>
+        <li><b>"Hello, World!"</b> – A string literal to be displayed.</li>
+        <li><b>End Sub</b> – Marks the end of the subroutine.</li>
+        <li><b>End Module</b> – Marks the end of the module.</li>
+    </ul>
+</div>
+<div class="main-vb-body">
+    <h2>2. Variables and Data Types</h2>
+    <p>
+        In VB.NET, variables are used to store data. Each variable has a data type that defines
+        the kind of value it can hold, such as numbers, text, or decimals.
+        Below is an example showing how to declare variables, assign values, and display them.
+    </p>
+    
+    <pre class="code">
+<i>Editor:</i>
+<span>Module</span> Program
+    <span>Sub</span> Main()
+        <span>Dim</span> age <span>As</span> Integer = <span>25</span>
+        <span>Dim</span> firstName <span>As</span> String = <span>"Adrian"</span>
+        <span>Dim</span> lastName <span>As</span> String = <span>"Akira"</span>
+        <span>Dim</span> price <span>As</span> Double = <span>199.99</span>
+
+        Console.<span>WriteLine</span>(<span>"Name: "</span> &amp; firstName &amp; <span>" "</span> &amp; lastName)
+        Console.<span>WriteLine</span>(<span>"Age: "</span> &amp; age)
+        Console.<span>WriteLine</span>(<span>"Price: $"</span> &amp; price)
+    <span>End Sub</span>
+<span>End Module</span>
+    </pre>
+    
+    <pre class="code">
+<i>Output:</i>
+Name: Adrian Akira
+Age: 25
+Price: $199.99
+    </pre>
+    
+    <h3>Syntax Breakdown</h3>
+    <ul>
+        <li><b>Module</b> – Defines a container for code.</li>
+        <li><b>Sub</b> – Declares a subroutine.</li>
+        <li><b>Dim</b> – Declares a variable.</li>
+        <li><b>As</b> – Specifies the data type of a variable.</li>
+        <li><b>Integer</b> – Data type for whole numbers.</li>
+        <li><b>String</b> – Data type for text values.</li>
+        <li><b>Double</b> – Data type for decimal numbers.</li>
+        <li><b>=</b> – Assigns a value to a variable.</li>
+        <li><b>Console.WriteLine()</b> – Displays output in the console.</li>
+        <li><b>&amp;</b> – Concatenates (joins) strings together.</li>
+        <li><b>End Sub</b> – Marks the end of the subroutine.</li>
+        <li><b>End Module</b> – Marks the end of the module.</li>
+    </ul>
+</div>
+<div class="main-vb-body">
+    <h2>3. Input and Output (Console.ReadLine, Console.WriteLine)</h2>
+    <p>
+        In VB.NET, <code>Console.WriteLine()</code> is used to display output, while
+        <code>Console.ReadLine()</code> is used to take input from the user through the console.
+        This example will ask for the user's name and age, then display them back.
+    </p>
+    
+    <pre class="code">
+<i>Editor:</i>
+<span>Module</span> Program
+    <span>Sub</span> Main()
+        Console.<span>WriteLine</span>(<span>"Enter your name:"</span>)
+        <span>Dim</span> name <span>As</span> String = Console.<span>ReadLine</span>()
+
+        Console.<span>WriteLine</span>(<span>"Enter your age:"</span>)
+        <span>Dim</span> age <span>As</span> Integer = Console.<span>ReadLine</span>()
+
+        Console.<span>WriteLine</span>(<span>"Hello, "</span> &amp; name &amp; <span>". You are "</span> &amp; age &amp; <span>" years old."</span>)
+    <span>End Sub</span>
+<span>End Module</span>
+    </pre>
+    
+    <pre class="code">
+<i>Output:</i>
+Enter your name:
+Adrian
+Enter your age:
+25
+Hello, Adrian. You are 25 years old.
+    </pre>
+    
+    <h3>Syntax Breakdown</h3>
+    <ul>
+        <li><b>Module</b> – Defines a container for code.</li>
+        <li><b>Sub</b> – Declares a subroutine.</li>
+        <li><b>Dim</b> – Declares a variable.</li>
+        <li><b>As</b> – Specifies the data type of a variable.</li>
+        <li><b>String</b> – Data type for text values.</li>
+        <li><b>Integer</b> – Data type for whole numbers.</li>
+        <li><b>Console.WriteLine()</b> – Displays output in the console.</li>
+        <li><b>Console.ReadLine()</b> – Reads input from the user via the console.</li>
+        <li><b>&amp;</b> – Concatenates (joins) strings together.</li>
+        <li><b>End Sub</b> – Marks the end of the subroutine.</li>
+        <li><b>End Module</b> – Marks the end of the module.</li>
+    </ul>
+</div>
+<div class="main-vb-body">
+    <h2>4. Arithmetic Operators</h2>
+    <p>
+        Arithmetic operators in VB.NET are used to perform mathematical operations such as addition, subtraction, multiplication, and division.
+        This example will demonstrate how to use these operators with numbers entered by the user.
+    </p>
+    
+    <pre class="code">
+<i>Editor:</i>
+<span>Module</span> Program
+    <span>Sub</span> Main()
+        Console.<span>WriteLine</span>(<span>"Enter first number:"</span>)
+        <span>Dim</span> num1 <span>As</span> Double = Console.<span>ReadLine</span>()
+
+        Console.<span>WriteLine</span>(<span>"Enter second number:"</span>)
+        <span>Dim</span> num2 <span>As</span> Double = Console.<span>ReadLine</span>()
+
+        <span>Dim</span> sum <span>As</span> Double = num1 + num2
+        <span>Dim</span> difference <span>As</span> Double = num1 - num2
+        <span>Dim</span> product <span>As</span> Double = num1 * num2
+        <span>Dim</span> quotient <span>As</span> Double = num1 / num2
+
+        Console.<span>WriteLine</span>(<span>"Sum: "</span> &amp; sum)
+        Console.<span>WriteLine</span>(<span>"Difference: "</span> &amp; difference)
+        Console.<span>WriteLine</span>(<span>"Product: "</span> &amp; product)
+        Console.<span>WriteLine</span>(<span>"Quotient: "</span> &amp; quotient)
+    <span>End Sub</span>
+<span>End Module</span>
+    </pre>
+    
+    <pre class="code">
+<i>Output:</i>
+Enter first number:
+10
+Enter second number:
+5
+Sum: 15
+Difference: 5
+Product: 50
+Quotient: 2
+    </pre>
+    
+    <h3>Syntax Breakdown</h3>
+    <ul>
+        <li><b>Module</b> – Defines a container for code.</li>
+        <li><b>Sub</b> – Declares a subroutine.</li>
+        <li><b>Dim</b> – Declares a variable.</li>
+        <li><b>As</b> – Specifies the data type of a variable.</li>
+        <li><b>Double</b> – Data type for decimal numbers.</li>
+        <li><b>Console.WriteLine()</b> – Displays output in the console.</li>
+        <li><b>Console.ReadLine()</b> – Reads input from the user via the console.</li>
+        <li><b>+</b> – Addition operator.</li>
+        <li><b>-</b> – Subtraction operator.</li>
+        <li><b>*</b> – Multiplication operator.</li>
+        <li><b>/</b> – Division operator.</li>
+        <li><b>&amp;</b> – Concatenates (joins) strings together.</li>
+        <li><b>End Sub</b> – Marks the end of the subroutine.</li>
+        <li><b>End Module</b> – Marks the end of the module.</li>
+    </ul>
+</div>
+<div class="main-vb-body">
+    <h2>5. String Manipulation (Trim, Length, Substring, etc.)</h2>
+    <p>
+        VB.NET provides many built-in methods for manipulating strings, such as trimming spaces,
+        getting the length, extracting substrings, changing case, and replacing text.
+        This example demonstrates some of these common string operations.
+    </p>
+    
+    <pre class="code">
+<i>Editor:</i>
+<span>Module</span> Program
+    <span>Sub</span> Main()
+        <span>Dim</span> text <span>As</span> String = <span>"  Hello, Adrian Akira!  "</span>
+
+        Console.<span>WriteLine</span>(<span>"Original: '"</span> &amp; text &amp; <span>"'"</span>)
+        Console.<span>WriteLine</span>(<span>"Trimmed: '"</span> &amp; text.Trim() &amp; <span>"'"</span>)
+        Console.<span>WriteLine</span>(<span>"Length: "</span> &amp; text.Length)
+        Console.<span>WriteLine</span>(<span>"Substring(2, 5): '"</span> &amp; text.Substring(2, 5) &amp; <span>"'"</span>)
+        Console.<span>WriteLine</span>(<span>"Uppercase: '"</span> &amp; text.ToUpper() &amp; <span>"'"</span>)
+        Console.<span>WriteLine</span>(<span>"Lowercase: '"</span> &amp; text.ToLower() &amp; <span>"'"</span>)
+        Console.<span>WriteLine</span>(<span>"Replace 'Adrian' with 'Akira': '"</span> &amp; text.Replace(<span>"Adrian"</span>, <span>"Akira"</span>) &amp; <span>"'"</span>)
+    <span>End Sub</span>
+<span>End Module</span>
+    </pre>
+    
+    <pre class="code">
+<i>Output:</i>
+Original: '  Hello, Adrian Akira!  '
+Trimmed: 'Hello, Adrian Akira!'
+Length: 24
+Substring(2, 5): 'Hello'
+Uppercase: '  HELLO, ADRIAN AKIRA!  '
+Lowercase: '  hello, adrian akira!  '
+Replace 'Adrian' with 'Akira': '  Hello, Akira Akira!  '
+    </pre>
+    
+    <h3>Syntax Breakdown</h3>
+    <ul>
+        <li><b>Trim()</b> – Removes leading and trailing spaces from the string.</li>
+        <li><b>Length</b> – Gets the total number of characters in the string.</li>
+        <li><b>Substring(startIndex, length)</b> – Extracts a part of the string starting from <code>startIndex</code> with specified <code>length</code>.</li>
+        <li><b>ToUpper()</b> – Converts all characters in the string to uppercase.</li>
+        <li><b>ToLower()</b> – Converts all characters in the string to lowercase.</li>
+        <li><b>Replace(oldValue, newValue)</b> – Replaces occurrences of <code>oldValue</code> with <code>newValue</code>.</li>
+    </ul>
+</div>
+<div class="main-vb-body">
+    <h2>6. Conditional Statements (If, ElseIf, Select Case)</h2>
+    <p>
+        Conditional statements allow your program to make decisions and execute different code blocks
+        based on conditions. VB.NET supports <code>If…ElseIf…Else</code> and <code>Select Case</code>
+        statements for branching logic.
+    </p>
+    
+    <pre class="code">
+<i>Editor:</i>
+<span>Module</span> Program
+    <span>Sub</span> Main()
+        Console.<span>WriteLine</span>(<span>"Enter a number (1-3):"</span>)
+        <span>Dim</span> num <span>As</span> Integer = Console.<span>ReadLine</span>()
+
+        <span>If</span> num = 1 <span>Then</span>
+            Console.<span>WriteLine</span>(<span>"You chose One."</span>)
+        <span>ElseIf</span> num = 2 <span>Then</span>
+            Console.<span>WriteLine</span>(<span>"You chose Two."</span>)
+        <span>ElseIf</span> num = 3 <span>Then</span>
+            Console.<span>WriteLine</span>(<span>"You chose Three."</span>)
+        <span>Else</span>
+            Console.<span>WriteLine</span>(<span>"Invalid choice."</span>)
+        <span>End If</span>
+
+        <span>Select Case</span> num
+            <span>Case</span> 1
+                Console.<span>WriteLine</span>(<span>"Select Case: One"</span>)
+            <span>Case</span> 2
+                Console.<span>WriteLine</span>(<span>"Select Case: Two"</span>)
+            <span>Case</span> 3
+                Console.<span>WriteLine</span>(<span>"Select Case: Three"</span>)
+            <span>Case Else</span>
+                Console.<span>WriteLine</span>(<span>"Select Case: Invalid choice"</span>)
+        <span>End Select</span>
+    <span>End Sub</span>
+<span>End Module</span>
+    </pre>
+    
+    <pre class="code">
+<i>Output:</i>
+Enter a number (1-3):
+2
+You chose Two.
+Select Case: Two
+    </pre>
+    
+    <h3>Syntax Breakdown</h3>
+    <ul>
+        <li><b>If…Then…ElseIf…Else…End If</b> – Conditional statement for multiple choices.</li>
+        <li><b>Select Case…Case…Case Else…End Select</b> – Alternative syntax for multiple branching.</li>
+        <li><b>Console.WriteLine()</b> – Displays output.</li>
+        <li><b>Console.ReadLine()</b> – Reads user input.</li>
+        <li><b>Dim</b> – Declares variables.</li>
+        <li><b>As</b> – Specifies data types.</li>
+        <li><b>Integer</b> – Whole number data type.</li>
+        <li><b>End Sub</b>, <b>End Module</b> – Marks end of subroutine and module.</li>
+    </ul>
+</div>
+<div class="main-vb-body">
+    <h2>7. Logical & Comparison Operators (And, Or, =, &lt;&gt;, etc.)</h2>
+    <p>
+        Logical and comparison operators are used to combine conditions or compare values.
+        This example shows how to use <code>And</code>, <code>Or</code>, <code>=</code>, and <code>&lt;&gt;</code> operators.
+    </p>
+    
+    <pre class="code">
+<i>Editor:</i>
+<span>Module</span> Program
+    <span>Sub</span> Main()
+        Console.<span>WriteLine</span>(<span>"Enter your age:"</span>)
+        <span>Dim</span> age <span>As</span> Integer = Console.<span>ReadLine</span>()
+
+        <span>If</span> age &gt;= 18 <span>And</span> age &lt;= 60 <span>Then</span>
+            Console.<span>WriteLine</span>(<span>"You are an adult."</span>)
+        <span>ElseIf</span> age &lt; 18 <span>Or</span> age &gt; 60 <span>Then</span>
+            Console.<span>WriteLine</span>(<span>"You are not an adult."</span>)
+        <span>End If</span>
+
+        <span>If</span> age = 25 <span>Then</span>
+            Console.<span>WriteLine</span>(<span>"You are 25 years old."</span>)
+        <span>ElseIf</span> age &lt;&gt; 25 <span>Then</span>
+            Console.<span>WriteLine</span>(<span>"You are not 25 years old."</span>)
+        <span>End If</span>
+    <span>End Sub</span>
+<span>End Module</span>
+    </pre>
+    
+    <pre class="code">
+<i>Output:</i>
+Enter your age:
+25
+You are an adult.
+You are 25 years old.
+    </pre>
+    
+    <h3>Syntax Breakdown</h3>
+    <ul>
+        <li><b>And</b> – Logical AND operator (both conditions must be true).</li>
+        <li><b>Or</b> – Logical OR operator (at least one condition must be true).</li>
+        <li><b>=</b> – Equality comparison operator.</li>
+        <li><b>&lt;&gt;</b> – Inequality comparison operator (not equal).</li>
+        <li><b>&gt;=</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&lt;</b> – Relational operators (greater than, less than, etc.).</li>
+        <li><b>If…Then…ElseIf…End If</b> – Conditional branching.</li>
+        <li><b>Console.WriteLine()</b> – Displays output.</li>
+        <li><b>Console.ReadLine()</b> – Reads user input.</li>
+        <li><b>Dim</b>, <b>As</b> – Variable declaration and data type specification.</li>
+        <li><b>End Sub</b>, <b>End Module</b> – Ends subroutine and module.</li>
+    </ul>
+</div>
+
+
+
+
+
+    </div>
+    
+</div>
+<script src="../appjs/app.js"></script>
+</body>
+</html>

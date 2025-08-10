@@ -1,1 +1,28 @@
 <a href="pageshtml/#.htm"><button class="studyBTN">#</button></a>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>StudyHub || Akira - GenMath</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<div>
+    <header class="study-header">
+        <h2><button class="fas fa-arrow-left" onclick="back()"></button> StudyHub</h2>
+    </header>
+    <div class="intro">
+        <h2>General Mathematics</h2>
+    </div>
+    <div class="main-lessons-area">
+        <div class="topiclesson-body">
+            
+        </div>
+    </div>
+</div>
+</body>
+</html>
+

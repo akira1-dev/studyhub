@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>StudyHub || Akira - GenMath</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <style>
+      button {
+        background: none;
+        border: none;
+        text-align: left;
+        font-size: 25px;
+        cursor: pointer;
+      }
+    </style>
+</head>
+<body>
+<div>
+<div>
+    <header class="study-header">
+        <h2><button class="fas fa-arrow-left" onclick="back()"></button> StudyHub</h2>
+    </header>
+    <div class="intro">
+        <h2>General Mathematics</h2>
+    </div>
+    <div class="main-lessons-area">
+<div class="topiclesson-body">
+  <h2>📗 GENERAL MATHEMATICS – Q2 LESSON 1</h2>
+  <h3>📍 Title: Polynomial Functions</h3>
+
+  <h4>📌 A. Definition</h4>
+  <p>A polynomial function is a function of the form:<br>
+     <code>f(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + ... + a<sub>1</sub>x + a<sub>0</sub></code><br>
+     where coefficients a<sub>i</sub> are real numbers and n is a non-negative integer.</p>
+
+  <h4>📌 B. Key Terms (short meanings)</h4>
+  <ul>
+    <li><strong>Degree</strong> – highest exponent n of x.</li>
+    <li><strong>Leading coefficient</strong> – a<sub>n</sub>, coefficient of the highest degree term.</li>
+    <li><strong>Constant term</strong> – a<sub>0</sub>, term without x.</li>
+    <li><strong>Zero / Root</strong> – value of x where f(x)=0.</li>
+  </ul>
+
+  <h4>📌 C. Examples</h4>
+  <ul>
+    <li><strong>1)</strong> f(x) = 2x³ + 4x² − x + 7<br>
+        Degree: 3 — Leading coefficient: 2 — Type: Cubic</li>
+
+    <li><strong>2)</strong> g(x) = −5x² + 3x − 8<br>
+        Degree: 2 — Leading coefficient: −5 — Type: Quadratic</li>
+
+    <li><strong>3)</strong> h(x) = 7x⁵ − x⁴ + 2x² − 1<br>
+        Degree: 5 — Leading coefficient: 7 — Type: Quintic</li>
+
+    <li><strong>Non-polynomial examples (NOT polynomial):</strong>
+      <ul>
+        <li>1/x (variable in denominator)</li>
+        <li>√x (fractional exponent)</li>
+        <li>5x⁻² + 3x + 1 (negative exponent)</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h4>📌 D. Domain</h4>
+  <p>All real numbers (polynomials defined for every real x).</p>
+
+  <h4>📌 E. End Behavior (based on degree and leading coefficient)</h4>
+  <ul>
+    <li>Even degree:
+      <ul>
+        <li>Positive leading coefficient → both ends up</li>
+        <li>Negative leading coefficient → both ends down</li>
+      </ul>
+    </li>
+    <li>Odd degree:
+      <ul>
+        <li>Positive leading coefficient → left down, right up</li>
+        <li>Negative leading coefficient → left up, right down</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h4>📌 F. Finding Zeros (brief)</h4>
+  <ul>
+    <li>Factor the polynomial when possible (common factor, grouping, quadratic formula for degree 2).</li>
+    <li>Use Rational Root Theorem to test possible rational roots.</li>
+    <li>Use synthetic division or polynomial long division after finding a root.</li>
+  </ul>
+
+  <h4>📌 G. Worked Examples</h4>
+  <ol>
+    <li>
+      <strong>Example 1:</strong> f(x) = x² − 5x + 6<br>
+      Factor: (x − 2)(x − 3) → zeros: x = 2, 3. Degree 2, leading coeff = 1.
+    </li>
+    <li>
+      <strong>Example 2:</strong> p(x) = (x − 1)(x + 2)(2x − 3)<br>
+      Expand if needed: degree 3, zeros: x = 1, −2, 3/2. Leading coeff = 2.
+    </li>
+    <li>
+      <strong>Example 3:</strong> q(x) = 2x³ + x² − 5x − 2. Use rational root test: possible ±1, ±2, ±1/2.<br>
+      Test x=1 → 2+1−5−2 = −4 (no). Test x=2 → 16+4−10−2 = 8 (no). Test x=−1 → −2+1+5−2 = 2 (no). Test x=−2 → −16+4+10−2 = −4 (no). Test x=1/2 → 2(1/8)+1/4−5(1/2)−2 = 0.25+0.25−2.5−2 = −4 → no. If no rational roots, use numeric methods or graphing to approximate roots.
+    </li>
+    <li>
+      <strong>Example 4 (End behavior):</strong> r(x) = −3x⁴ + 2x³ − x + 5 → Degree even (4), leading coeff negative (−3) → both ends down.
+    </li>
+  </ol>
+
+  <h4>📌 H. Quick Practice</h4>
+  <ol>
+    <li>Identify degree and leading coefficient of f(x) = 4x⁴ − x + 9.</li>
+    <li>Factor and find zeros: x² + 7x + 10.</li>
+    <li>Describe end behavior: f(x) = −x³ + 6x.</li>
+  </ol>
+
+  <h4>📌 I. Answer Key (short)</h4>
+  <ul>
+    <li>1) Degree 4, leading coefficient 4.</li>
+    <li>2) (x + 5)(x + 2) → zeros x = −5, −2.</li>
+    <li>3) Odd degree, negative leading → left up, right down.</li>
+  </ul>
+</div>
+<div class="topiclesson-body">
+  <h2>📗 GENERAL MATHEMATICS – Q2 LESSON 2</h2>
+  <h3>📍 Title: Rational Functions</h3>
+  
+  <h4>📌 A. Definition</h4>
+  <p>
+    A <strong>rational function</strong> is a function of the form:<br>
+    <code>f(x) = P(x) / Q(x)</code><br>
+    where <em>P(x)</em> and <em>Q(x)</em> are polynomial functions, and Q(x) ≠ 0.
+  </p>
+  
+  <h4>📌 B. Key Terms (short meanings)</h4>
+  <ul>
+    <li><strong>Numerator</strong> – the top polynomial P(x).</li>
+    <li><strong>Denominator</strong> – the bottom polynomial Q(x).</li>
+    <li><strong>Domain</strong> – all real x except values making Q(x) = 0.</li>
+    <li><strong>Vertical Asymptote</strong> – vertical line x = a where Q(a) = 0 (and P(a) ≠ 0).</li>
+    <li><strong>Horizontal Asymptote</strong> – horizontal line showing end behavior as x → ±∞.</li>
+    <li><strong>Oblique/Slant Asymptote</strong> – occurs if degree of numerator is exactly 1 higher than denominator.</li>
+  </ul>
+  
+  <h4>📌 C. Domain</h4>
+  <p>
+    To find the domain: Solve Q(x) = 0 and exclude these values from all real numbers.
+  </p>
+  
+  <h4>📌 D. Types of Asymptotes</h4>
+  <ul>
+    <li><strong>Vertical:</strong> at values excluded from domain.</li>
+    <li><strong>Horizontal:</strong>
+      <ul>
+        <li>deg(P) &lt; deg(Q) → y = 0</li>
+        <li>deg(P) = deg(Q) → y = leading coeff(P) / leading coeff(Q)</li>
+        <li>deg(P) &gt; deg(Q) → no horizontal asymptote</li>
+      </ul>
+    </li>
+    <li><strong>Oblique/Slant:</strong> divide P(x) by Q(x) using long or synthetic division.</li>
+  </ul>
+  
+  <h4>📌 E. Examples</h4>
+  <ul>
+    <li><strong>Example 1:</strong> f(x) = (x + 1) / (x − 2)<br>
+      Domain: x ≠ 2<br>
+      Vertical asymptote: x = 2<br>
+      Horizontal asymptote: deg num = deg den = 1 → y = 1</li>
+    
+    <li><strong>Example 2:</strong> g(x) = (x² − 1) / (x − 3)<br>
+      Domain: x ≠ 3<br>
+      Deg num (2) > deg den (1) → slant asymptote found via division: y = x + 3 + 8/(x − 3)</li>
+    
+    <li><strong>Example 3:</strong> h(x) = 2 / (x² + 4)<br>
+      Domain: all real numbers (since x² + 4 ≠ 0 for real x)<br>
+      Horizontal asymptote: y = 0</li>
+  </ul>
+  
+  <h4>📌 F. Graph Behavior</h4>
+  <ul>
+    <li>Near vertical asymptotes: graph shoots up to +∞ or down to −∞.</li>
+    <li>End behavior follows horizontal or slant asymptote.</li>
+    <li>May have holes if a factor cancels between P(x) and Q(x).</li>
+  </ul>
+  
+  <h4>📌 G. Worked Example</h4>
+  <ol>
+    <li>
+      <strong>Example:</strong> f(x) = (x² − 9) / (x² − x − 6) <br>
+      Factor: (x − 3)(x + 3) / (x − 3)(x + 2) <br>
+      Hole at x = 3 (factor cancels) <br>
+      Vertical asymptote: x = −2 <br>
+      Horizontal asymptote: deg num = deg den → y = 1
+    </li>
+  </ol>
+  
+  <h4>📌 H. Quick Practice</h4>
+  <ol>
+    <li>Find domain of f(x) = (x + 4) / (x² − 16).</li>
+    <li>Identify vertical and horizontal asymptotes of g(x) = (2x² + 1) / (x² − 9).</li>
+    <li>State if h(x) = (x² + x + 1) / (x − 1) has a slant asymptote.</li>
+  </ol>
+  
+  <h4>📌 I. Answer Key (short)</h4>
+  <ul>
+    <li>1) x ≠ −4, 4.</li>
+    <li>2) Vertical: x = 3, −3; Horizontal: y = 2.</li>
+    <li>3) Yes, because degree numerator (2) is 1 greater than denominator (1).</li>
+  </ul>
+</div>
+<div class="topiclesson-body">
+  <h2>📗 GENERAL MATHEMATICS – Q2 LESSON 3</h2>
+  <h3>📍 Title: Laws of Exponents</h3>
+  
+  <h4>📌 A. Definitions</h4>
+  <p>The laws of exponents are rules that simplify expressions involving powers of the same base. They allow easier manipulation of exponential terms.</p>
+  
+  <h4>📌 B. Main Laws & Formulas</h4>
+  <ul>
+    <li><strong>1. Product Rule:</strong> <code>a<sup>m</sup> × a<sup>n</sup> = a<sup>m+n</sup></code></li>
+    <li><strong>2. Quotient Rule:</strong> <code>a<sup>m</sup> ÷ a<sup>n</sup> = a<sup>m−n</sup></code></li>
+    <li><strong>3. Power of a Power:</strong> <code>(a<sup>m</sup>)<sup>n</sup> = a<sup>m×n</sup></code></li>
+    <li><strong>4. Power of a Product:</strong> <code>(ab)<sup>m</sup> = a<sup>m</sup> × b<sup>m</sup></code></li>
+    <li><strong>5. Zero Exponent:</strong> <code>a<sup>0</sup> = 1</code> (where a ≠ 0)</li>
+    <li><strong>6. Negative Exponent:</strong> <code>a<sup>−m</sup> = 1 / a<sup>m</sup></code></li>
+  </ul>
+  
+  <h4>📌 C. Examples</h4>
+  <ul>
+    <li><strong>Product Rule:</strong> 2<sup>3</sup> × 2<sup>4</sup> = 2<sup>7</sup> = 128</li>
+    <li><strong>Quotient Rule:</strong> 5<sup>6</sup> ÷ 5<sup>2</sup> = 5<sup>4</sup> = 625</li>
+    <li><strong>Power of a Power:</strong> (3<sup>2</sup>)<sup>4</sup> = 3<sup>8</sup> = 6,561</li>
+    <li><strong>Power of a Product:</strong> (2 × 5)<sup>3</sup> = 2<sup>3</sup> × 5<sup>3</sup> = 8 × 125 = 1,000</li>
+    <li><strong>Zero Exponent:</strong> 7<sup>0</sup> = 1</li>
+    <li><strong>Negative Exponent:</strong> 2<sup>−3</sup> = 1 / 2<sup>3</sup> = 1/8</li>
+  </ul>
+  
+  <h4>📌 D. Key Insights</h4>
+  <ul>
+    <li>Always apply laws only when the base is the same.</li>
+    <li>Negative exponents indicate reciprocals.</li>
+    <li>Zero exponent always equals 1 (except 0<sup>0</sup> which is undefined).</li>
+  </ul>
+</div>
+<div class="topiclesson-body">
+  <h2>📗 GENERAL MATHEMATICS – Q2 LESSON 4</h2>
+  <h3>📍 Title: Radical Expressions</h3>
+  
+  <h4>📌 A. Definitions</h4>
+  <p>Radical expressions are expressions that contain a root symbol (√), such as square roots, cube roots, or higher-order roots. They can involve variables, constants, or both.</p>
+  
+  <h4>📌 B. Key Terms</h4>
+  <ul>
+    <li><strong>Radical Sign (√):</strong> Indicates the root operation.</li>
+    <li><strong>Radicand:</strong> The number or expression inside the radical sign.</li>
+    <li><strong>Index:</strong> Indicates the degree of the root (e.g., index of 3 means cube root).</li>
+    <li><strong>Principal Root:</strong> The non-negative root of a number.</li>
+  </ul>
+  
+  <h4>📌 C. Laws of Radicals</h4>
+  <ul>
+    <li><strong>Product Rule:</strong> <code>√(ab) = √a × √b</code></li>
+    <li><strong>Quotient Rule:</strong> <code>√(a/b) = √a ÷ √b</code> (b ≠ 0)</li>
+    <li><strong>Power Rule:</strong> <code>√[n]{a<sup>m</sup>} = a<sup>m/n</sup></code></li>
+    <li><strong>Simplifying:</strong> Factor perfect powers out of the radicand.</li>
+  </ul>
+  
+  <h4>📌 D. Examples</h4>
+  <ul>
+    <li><strong>Product Rule:</strong> √(4 × 9) = √36 = 6</li>
+    <li><strong>Quotient Rule:</strong> √(25/4) = 5/2</li>
+    <li><strong>Power Rule:</strong> √[3]{8<sup>2</sup>} = 8<sup>2/3</sup> = 4</li>
+    <li><strong>Simplifying:</strong> √50 = √(25 × 2) = 5√2</li>
+  </ul>
+  
+  <h4>📌 E. Key Insights</h4>
+  <ul>
+    <li>Always simplify radicals by factoring out perfect powers.</li>
+    <li>Use the laws of radicals to combine or separate radical expressions.</li>
+    <li>Express radicals in rational exponent form for easier manipulation in algebra.</li>
+  </ul>
+</div>
+<div class="topiclesson-body">
+  <h2>📗 GENERAL MATHEMATICS – Q2 LESSON 5</h2>
+  <h3>📍 Title: Future & Present Values of Simple and General Annuities</h3>
+  
+  <h4>📌 A. Definitions</h4>
+  <ul>
+    <li><strong>Simple Annuity</strong> – payments are made at regular intervals that coincide with the interest compounding periods.</li>
+    <li><strong>General Annuity</strong> – payments occur at regular intervals that do <em>not</em> align with the compounding periods.</li>
+  </ul>
+  
+  <h4>📌 B. Formulas</h4>
+  <ul>
+    <li><strong>Simple Annuity:</strong></li>
+    <ul>
+      <li>Present Value: <code>P = R × [ (1 – (1 + i)⁻ⁿ) / i ]</code></li>
+      <li>Future Value: <code>F = R × [ ( (1 + i)ⁿ – 1 ) / i ]</code></li>
+      <li>Where:</li>
+      <li>R = periodic payment</li>
+      <li>i = interest rate per period</li>
+      <li>n = number of periods (n = t × m, where m = compounding periods per year)</li>
+    </ul>
+    <li><strong>General Annuity:</strong></li>
+    <ul>
+      <li>Present Value: <code>P = R × [ (1 − (1 + i)⁻ⁿ) / ( (1 + i)ᵇ − 1 ) ]</code></li>
+      <li>Follows similar idea but adapts when payment and interest periods differ.</li>
+    </ul>
+  </ul>
+  
+  <h4>📌 C. Example – Simple Annuity</h4>
+  <ul>
+    <li>R = ₱2,000 quarterly for 5 years with 8% annual interest, compounded quarterly.</li>
+    <li>i = 0.08 / 4 = 0.02, n = 4 × 5 = 20.</li>
+    <li>Future Value: <code>F = 2000 × [ ((1.02)²⁰ – 1) / 0.02 ] ≈ ₱55,474</code></li>
+  </ul>
+  
+  <h4>📌 D. Example – General Annuity</h4>
+  <ul>
+    <li>Payments yearly; interest 5% compounded quarterly (payment ≠ compounding interval).</li>
+    <li>Convert interest: i = 0.05 / 4 = 0.0125; compute equivalent rate per year and apply general annuity formula.</li>
+  </ul>
+  
+  <h4>📌 E. Key Insights</h4>
+  <ul>
+    <li>Present Value reflects the total worth now of future payments.</li>
+    <li>Future Value reflects total accumulation with interest over time.</li>
+    <li>Simple annuities are easier to compute when periods align.</li>
+    <li>General annuities require rate conversions when periods differ.</li>
+  </ul>
+</div>
+
+
+
+    </div>
+</div>
+<script src="../appjs/app.js"></script>
+</body>
+</html>

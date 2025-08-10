@@ -27,11 +27,6 @@ header {
     top: 0;
     position: sticky;
 }
-input {
-    font-size: 20px;
-    width: 200px;
-    height: 20px;
-}
 .intro {
     padding: 10px;
     margin: 1cm;
@@ -65,8 +60,44 @@ input {
 }
 footer {
     background-color: white;
-    padding: 1px;
+    padding: 5px;
     text-align: center;
     box-shadow: 0px 0px 8px black;
     margin-top: 1cm;
+}
+.vb-area {
+    text-align: center;
+    padding: 5px;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vb-btn {
+    font-size: 22px;
+    padding: 10px;
+    width: 400px;
+    border: none;
+    background-color: lightblue;
+    border-radius: 10px;
+    cursor: pointer;
+    animation: vbBTN 2s linear infinite;
+    transition: 0.2s ease-in-out;
+}
+@keyframes vbBTN {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+.vb-btn:hover {
+    transform: scale(1.1);
+    background-color: lightcyan;
+    animation: vbBTN 2s linear infinite;
+    box-shadow: 
+    0px 0px 10px cyan,
+    0px 0px 20px cyan;
 }
