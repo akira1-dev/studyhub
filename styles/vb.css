@@ -1,47 +1,63 @@
-body {
+/* General Reset */
+* {
     margin: 0;
     padding: 0;
-    background: ghostwhite;
-    font-family: sans-serif;
-    animation: openApp 0.50s ease-in;
+    box-sizing: border-box;
 }
+
+/* Smooth Page Opening Animation */
+body {
+    background: #f7f9fc;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    animation: openApp 0.5s ease-in;
+    color: #333;
+}
+
 @keyframes openApp {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    0%, 50% { opacity: 0; }
+    100% { opacity: 1; }
 }
+
 html {
     scroll-behavior: smooth;
 }
+
+/* Header - Sticky with Shadow */
 header {
     background-color: white;
-    padding: 1px;
-    padding-left: 10px;
-    box-shadow: 0px 0px 8px black;
+    padding: 10px 15px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.15);
     top: 0;
     position: sticky;
+    z-index: 100;
 }
+
+/* Main VB Content Box */
 .main-vb-body {
     background-color: white;
-    margin: 10px;
-    border: 2px solid black;
-    padding: 10px;
+    margin: 15px;
+    border: 2px solid #3498db;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
 }
+
+/* Code Display */
 .code {
-    padding: 5px;
-    padding-left: 20px;
-    background-color: whitesmoke;
-    border: 1px solid black;
+    padding: 8px 20px;
+    background-color: #eef2f7;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: monospace;
+    overflow-x: auto;
 }
+
 .code span {
-    color: blue;
+    color: #3498db;
+    font-weight: 600;
 }
+
+/* Popup Overlay */
 .popup-overlay {
     position: fixed;
     top: 0; left: 0;
@@ -52,45 +68,63 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+/* Popup Box */
 .popup-box {
     background-color: white;
-    color: white;
-    padding: 10px;
+    padding: 20px;
     min-width: 300px;
     text-align: center;
-    top: 50%; left: 50%;
-    border: 2px solid white;
-    animation: popupBox 0.5s ease-in;
-    color: black;
+    border: 2px solid #3498db;
+    animation: popupBox 0.4s ease-in;
+    color: #333;
     border-radius: 10px;
-    margin: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
+
 @keyframes popupBox {
-    0% {
-        transform: translateY(-100px);
-    }
-    100% {
-        transform: translateY(0px);
-    }
+    0% { transform: translateY(-30px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
 }
+
+/* Popup Close Button - Outline Style */
 #closePopup {
-    padding: 10px;
+    padding: 12px;
     width: 5cm;
     text-align: center;
-    border-radius: 10px;
-    transform: scale(0.6);
-    border: 2px solid black;
+    border-radius: 8px;
+    border: 2px solid #3498db;
+    background: transparent;
+    color: #3498db;
+    font-weight: 500;
     cursor: pointer;
-    transition: 0.2s ease-in-out;
+    transition: all 0.3s ease;
 }
+
+#closePopup:hover {
+    background: #3498db;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 0 12px rgba(52, 152, 219, 0.6);
+}
+
+/* Web Editor Box */
 .web-editor {
-    border: 2px solid black;
+    border: 2px solid #3498db;
     background-color: white;
-    padding: 10px;
-    margin: 10px;
+    padding: 15px;
+    margin: 15px;
     text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
+
+/* Links */
 a {
-    text-decoration: none;
-    color: blue;
+    color: #3498db;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #217dbb;
 }
