@@ -8,7 +8,7 @@ setTimeout(function() {
     console.log("%cStay safe, coder. – AkiraJS Dev", "color: lime; font-size: 12px; font-style: italic;");
 }, 1000);
 function back() { window.location.href = "../akira.html"; }
-function non() { alert("Under Development") }
+function non() { alert("Wait Lng!!! Nilalagay ko Pa :]") }
 
 function revhope() {
     window.location.href = "reviewer/revhope.htm";
