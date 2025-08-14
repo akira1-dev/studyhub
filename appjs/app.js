@@ -10,4 +10,7 @@ setTimeout(function() {
 function back() { window.location.href = "../akira.html"; }
 function non() { alert("Under Development") }
 
+function revhope() {
+    window.location.href = "reviewer/revhope.htm";
+}
 
