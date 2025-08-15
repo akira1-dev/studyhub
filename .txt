@@ -10,7 +10,7 @@
 </head>
 <body>
 <div>
-    <header class="p-3 bg-primary text-white">
+    <header class="p-3 bg-primary text-white" style="position: sticky; top: 0; right: 0;">
         <h2><a href="../akira.html" class="fas fa-arrow-left" style="text-decoration: none; color: white;"></a> Back</h2>
     </header>
     <div class="border m-5 p-2 text-center border-primary rounded">
