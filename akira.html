@@ -11,8 +11,33 @@
 </head>
 <body>
 <div class="text-center">
-    <header class="p-3 text-center bg-primary text-white" style="position: sticky; top: 0; right: 0;">
+    <header class="p-3 d-flex justify-content-between bg-primary text-white" style="position: sticky; top: 0; right: 0;">
         <h2><i class="fas fa-book"></i> StudyHub</h2>
+        <button class="btn btn-outline-light rounded" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-nav"><i class="fas fa-bars"></i></button>
+        
+        <div class="offcanvas offcanvas-start bg-primary text-white text-start" id="offcanvas-nav">
+            <div class="offcanvas-header">
+                <h3>StudyHub</h3>
+                <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p>
+                    <button class="btn text-white" data-bs-toggle="collapse" data-bs-target="#module" disabled>Download Modules (Disable)</button>
+                </p>
+                <div class="collapse" id="module">
+                    <div class="card card-body bg-dark">
+                        <p>Oral Communication</p>
+                        <ul>
+                            <li><a href="#">Module </a></li>
+                            <li><a href="#">Module </a></li>
+                            <li><a href="#">Module </a></li>
+                            <li><a href="#">Module </a></li>
+                            <li><a href="#">Module </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <br />
     <div class="vb-area">
@@ -36,7 +61,7 @@
             <br />
             <h2 class="text-danger">Programming RoadMap</h2>
             <div class="study-btn-area">
-                <button class="btn btn-outline-danger p-2 w-75 mt-3" onclick="non()"><i class="fab fa-python"></i> Python</button>
+                <a href="proggrm/py.htm"><button class="btn btn-outline-danger p-2 w-75 mt-3"><i class="fab fa-python"></i> Python</button></a>
                 <button class="btn btn-outline-danger p-2 w-75 mt-3" onclick="non()"><i class="fab fa-js"></i> JavaScript</button>
                 <button class="btn btn-outline-danger p-2 w-75 mt-3" onclick="non()"><i class="fas fa-terminal"></i> C++</button>
                 <button class="btn btn-outline-danger p-2 w-75 mt-3" onclick="non()"><i class="fab fa-java"></i> Java</button>
