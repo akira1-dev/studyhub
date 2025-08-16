@@ -44,5 +44,5 @@ const working = `
 Under Development
 </p>
 `;
-document.getElementById('dev-status').innerHTML = working;
+document.getElementById('dev-status').innerHTML = active;
 
