@@ -9,5 +9,3 @@ setTimeout(function() {
 }, 1000);
 function back() { window.location.href = "../akira.html"; }
 function non() { alert("Wait Lng!!! Nilalagay ko Pa :]") }
-
-
