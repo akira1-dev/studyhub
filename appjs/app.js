@@ -11,7 +11,7 @@ function back() { window.location.href = "../akira.html"; }
 
 const active = `
 <p style="color: lime;">
-<span class="text-white"><i class="fas fa-globe"></i> Developer is: </span>
+<span class="text-white"><i class="fas fa-laptop-code"></i> Developer is: </span>
 <i class="fas fa-circle"></i>
 Active
 </p>
