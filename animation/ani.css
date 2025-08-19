@@ -19,3 +19,10 @@ a {
     text-decoration: none;
     color: white;
 }
+.collapse {
+    transition: height 0.5s ease, opacity 0.5s ease;
+}
+.collapsing {
+    opacity: 1;
+}
+

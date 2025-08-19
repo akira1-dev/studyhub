@@ -16,6 +16,7 @@ const active = `
 Active
 </p>
 `;
+
 const idle = `
 <p style="color: gold;">
 <span class="text-white"><i class="fas fa-laptop-code"></i> Developer is: </span>
