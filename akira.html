@@ -10,32 +10,18 @@
     <link rel="stylesheet" href="animation/ani.css">
 </head>
 <body>
-<div class="text-center">
+<div class="text-center bg-dark">
     <header class="p-3 d-flex justify-content-between bg-primary text-white" style="position: sticky; top: 0; right: 0;">
         <h2><i class="fas fa-book"></i> StudyHub</h2>
         <button class="btn btn-outline-light rounded" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-nav"><i class="fas fa-bars"></i></button>
         
         <div class="offcanvas offcanvas-start bg-primary text-white text-start" id="offcanvas-nav">
             <div class="offcanvas-header">
-                <h4><i class="fas fa-user-circle"></i> User</h4>
+                <button class="btn btn-link text-white"><h4><i class="fas fa-user-circle"></i> Akira Mae</h4></button>
                 <button class="btn-close" data-bs-dismiss="offcanvas"></button>
             </div>
             <div class="offcanvas-body">
-                <p>
-                    <button class="btn text-white" data-bs-toggle="collapse" data-bs-target="#module" disabled>Download Modules (Disable)</button>
-                </p>
-                <div class="collapse" id="module">
-                    <div class="card card-body bg-dark">
-                        <p>Oral Communication</p>
-                        <ul>
-                            <li><a href="#">Module </a></li>
-                            <li><a href="#">Module </a></li>
-                            <li><a href="#">Module </a></li>
-                            <li><a href="#">Module </a></li>
-                            <li><a href="#">Module </a></li>
-                        </ul>
-                    </div>
-                </div>
+            
                 <div class="game-body">
                     <h4>Games</h4>
                     <ul>
@@ -48,17 +34,17 @@
         </div>
     </header>
     <div class="mt-">
-        <button class="btn btn-outline-dark w-100"  data-bs-toggle="modal" data-bs-target="#abtApp">About this App</button>
+        <button class="border border-light w-100"  data-bs-toggle="modal" data-bs-target="#abtApp">About this App</button>
         <div class="modal fade" id="abtApp" bata-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="modal-header bg-secondary text-white">
+                    <div class="modal-header bg-primary text-white">
                         <h5 class="modal-title">About this WebApp</h5>
                     </div>
                     <div class="modal-body text-start">
                         <p>This WepApp is intended for my personal use & study purpose. I kindly ask for your understanding & support.</p>
                     </div>
-                    <div class="modal-footer text-end bg-secondary">
+                    <div class="modal-footer text-end bg-primary">
                         <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
@@ -74,7 +60,7 @@
                     <div class="modal-header bg-primary">
                         <h4 class="modal-title text-white">Study Schedule</h4>
                     </div>
-                    <div class="modal-body text-start">
+                    <div class="modal-body text-start bg-dark text-white">
                         <h5>Monday - Friday</h5>
                         <ul>
                             <li><strong>8:00 - 9:00AM:</strong> Breakfast & Coffe</li>
@@ -98,34 +84,37 @@
                             <li><strong><h3>Free Time</h3></strong></li>
                         </ul>
                     </div>
+                    <div class="modal-footer bg-primary">
+                        <button class="btn btn-outline-dark w-100" data-bs-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="vb-area">
-        <a href="visualbasic/vbpage.htm"><button class="btn btn-outline-success p-2 w-50">Learn Visual Basic.NET</button></a>
+        <a href="visualbasic/vbpage.htm"><button class="btn btn-success p-2 w-50">Learn Visual Basic.NET</button></a>
     </div>
     <br>
     <div class="main-study-area">
         <div class="main-study-body">
             <h2 class="text-primary">Learning Material</h2>
             <div class="study-btn-area">
-                <a href="pageshtml/oralcom.htm"><button class="btn btn-outline-primary p-2 w-75 mt-3"><i class="fas fa-users"></i> Oral Communication</button></a>
-                <button class="btn btn-outline-primary p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fas fa-laptop"></i> Empowerment Technologies</button>
-                <button class="btn btn-outline-primary p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fas fa-square-root-alt"></i> General Mathematics</button>
-                <button class="btn btn-outline-primary p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fas fa-desktop"></i> Fundamentals of Computer</button>
-                <button class="btn btn-outline-primary p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fas fa-user"></i> Personal Development</button>
-                <button class="btn btn-outline-primary p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fas fa-comments"></i> Komunikasyon sa Filipino</button>
-                <button class="btn btn-outline-primary p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fas fa-code"></i> Design Program Logic</button>
-                <button class="btn btn-outline-primary p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fas fa-heart"></i> HOPE#1</button>
-                <button class="btn btn-outline-primary p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fas fa-atom"></i> Earth & Social Science</button>
+                <a href="pageshtml/oralcom.htm"><button class="btn btn-primary p-2 w-75 mt-3"><i class="fas fa-users"></i> Oral Communication</button></a>
+                <button class="btn btn-primary p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fas fa-laptop"></i> Empowerment Technologies</button>
+                <button class="btn btn-primary p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fas fa-square-root-alt"></i> General Mathematics</button>
+                <button class="btn btn-primary p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fas fa-desktop"></i> Fundamentals of Computer</button>
+                <button class="btn btn-primary p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fas fa-user"></i> Personal Development</button>
+                <button class="btn btn-primary p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fas fa-comments"></i> Komunikasyon sa Filipino</button>
+                <button class="btn btn-primary p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fas fa-code"></i> Design Program Logic</button>
+                <button class="btn btn-primary p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fas fa-heart"></i> HOPE#1</button>
+                <button class="btn btn-primary p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fas fa-atom"></i> Earth & Social Science</button>
             </div>
             <br />
             <h2 class="text-danger">Programming RoadMap</h2>
             <div class="">
-                <button class="btn btn-outline-danger p-2 w-75 mt-3" data-bs-toggle="collapse" data-bs-target="#pyToggle"><i class="fab fa-python"></i> Python</button>
+                <button class="btn btn-danger p-2 w-75 mt-3" data-bs-toggle="collapse" data-bs-target="#pyToggle"><i class="fab fa-python"></i> Python</button>
                 <div class="collapse m-1" id="pyToggle">
-                    <div class="card border border-white">
+                    <div class="card bg-dark border border-dark">
                         <div class="card-body">
                             <button class="btn btn-danger w-75 mt-1" data-bs-toggle="modal" data-bs-target="#py-funda">Python Fundamentals</button>
                             <button class="btn btn-danger w-75 mt-1" data-bs-toggle="modal" data-bs-target="#py-ethhck">Python Ethical Hacking</button>
@@ -138,7 +127,7 @@
                                             <h4 class="modal-title text-white">Python Fundamentals</h4>
                                             <button class="btn-close" data-bs-dismiss="modal"></button>
                                         </div>
-                                        <div class="modal-body">
+                                        <div class="modal-body bg-dark text-white">
                                             <p class="text-start" id="pyfunda"></p>
                                         </div>
                                         <div class="modal-footer text-end bg-danger">
@@ -154,7 +143,7 @@
                                             <h4 class="modal-title text-white">Python Ethical Hacking</h4>
                                             <button class="btn-close" data-bs-dismiss="modal"></button>
                                         </div>
-                                        <div class="modal-body">
+                                        <div class="modal-body bg-dark text-white">
                                             <p class="text-start" id="pyethhck"></p>
                                         </div>
                                         <div class="modal-footer text-end bg-danger">
@@ -170,7 +159,7 @@
                                             <h4 class="modal-title text-white">Python KivyMD</h4>
                                             <button class="btn-close" data-bs-dismiss="modal"></button>
                                         </div>
-                                        <div class="modal-body">
+                                        <div class="modal-body bg-dark text-white">
                                             <p class="text-start" id="pykivymd"></p>
                                         </div>
                                         <div class="modal-footer text-end bg-danger">
@@ -186,7 +175,7 @@
                                             <h4 class="modal-title text-white">Python PyGame</h4>
                                             <button class="btn-close" data-bs-dismiss="modal"></button>
                                         </div>
-                                        <div class="modal-body">
+                                        <div class="modal-body bg-dark text-white">
                                             <p class="text-start" id="pypygame"></p>
                                         </div>
                                         <div class="modal-footer text-end bg-danger">
@@ -199,9 +188,9 @@
                     </div>
                 </div>
                 
-                <button class="btn btn-outline-danger p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fab fa-js"></i> JavaScript</button>
-                <button class="btn btn-outline-danger p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fas fa-terminal"></i> C++</button>
-                <button class="btn btn-outline-danger p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fab fa-java"></i> Java</button>
+                <button class="btn btn-danger p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fab fa-js"></i> JavaScript</button>
+                <button class="btn btn-danger p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fas fa-terminal"></i> C++</button>
+                <button class="btn btn-danger p-2 w-75 mt-3" data-bs-toggle="modal" data-bs-target="#development"><i class="fab fa-java"></i> Java</button>
             </div>
             <br />
             <h2 class="text-warning">Reviewer for 1st Quarter</h2>
@@ -216,17 +205,12 @@
         </div>
     </div>
     <div class="modal fade" id="development">
-        <div class="modal-dialog">
-            <div class="modal-content p-1">
-                
-                <div class="modal-header">
-                    <h5 class="modal-title">Notification</h5>
-                    <button class="btn-close" data-bs-dismiss="modal"></button>
+        <div class="modal-dialog modal-dialog-centered modal-dialog-sm">
+            <div class="modal-content">
+                <div class="modal-body text-center bg-dark text-white">
+                    <h4><i class="fas fa-tools"></i> Ginagawa ko pa...</h4>
                 </div>
-                <div class="modal-body text-center">
-                    <p><i class="fas fa-tools"></i> Ginagawa ko pa...</p>
-                </div>
-                <div class="modal-footer">
+                <div class="modal-footer bg-dark">
                     <button class="btn btn-primary text-end" data-bs-dismiss="modal">Ok po!</button>
                 </div>
             </div>
