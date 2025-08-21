@@ -25,4 +25,10 @@ a {
 .collapsing {
     opacity: 1;
 }
-
+.modal.fade.slide-right .modal-dialog {
+    transform: translateX(100%);
+    transition: transform .3s ease-out;
+}
+.modal.show.slide-right .modal-dialog {
+    transform: translateX(0);
+}
