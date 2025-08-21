@@ -1,0 +1,26 @@
+                <div class="collapse m-1" id="pyToggle">
+                    <div class="card border border-white">
+                        <div class="card-body">
+                            <button class="btn btn-danger w-75 mt-1" data-bs-toggle="modal" data-bs-target="#py-funda">Python Fundamentals</button>
+                            <button class="btn btn-danger w-75 mt-1" data-bs-toggle="modal" data-bs-target="#py-ethhck">Python Ethical Hacking</button>
+                            <button class="btn btn-danger w-75 mt-1" data-bs-toggle="modal" data-bs-target="#py-kivymd">Python KivyMD</button>
+                            <button class="btn btn-danger w-75 mt-1" data-bs-toggle="modal" data-bs-target="#py-pygame">Python PyGame</button>
+                            <div class="modal fade" id="py-funda">
+                                <div class="modal-dialog modal-fullscreen">
+                                    <div class="modal-content">
+                                        <div class="modal-header bg-danger">
+                                            <h4 class="modal-title text-white">Python Fundamentals</h4>
+                                            <button class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="text-start" id="pyfunda"></p>
+                                        </div>
+                                        <div class="modal-footer text-end bg-danger">
+                                            <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
